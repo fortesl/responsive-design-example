@@ -1,0 +1,132 @@
+@import "grid.css";
+@import "base.css";
+
+.container {
+    max-width: 75rem;
+    min-width: 20rem;
+    margin: 0 auto;
+    padding: 0;
+    background-color: var(--main-background-color, rgb(249, 252, 252));
+}
+
+.header {
+    padding: 0 2rem;
+}
+.header-brand {
+    padding-bottom: 1rem;
+    white-space: nowrap;
+}
+.header-content-item {
+    white-space: nowrap;
+    padding-right: var(--main-size, 1rem);
+    padding-bottom: var(--main-size, 1rem);
+}
+.header-item-icon {
+    align-self: center;
+    color: rgb(114, 201, 233);
+    padding-right: 0.3rem;
+}
+
+.content {
+    background-image: url("business.PNG");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}
+
+.content-text {
+    font-size: 5vw;
+    font-weight: 700;
+    z-index: 10;
+    padding: 2rem;
+}
+
+.content-buttons {
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    justify-content: flex-start;
+
+}
+
+.button-primary {
+    background-color: #5bc0de;
+    color: #fff;
+    border-color: #46b8da;
+    white-space: nowrap;
+}
+
+.button-primary:hover {
+    background-color: #246f86;
+}
+
+.button-default {
+    background-color: lightgrey;
+    margin-left: 0.5rem;
+    border-color: rgb(199, 194, 194);
+    white-space: nowrap;
+}
+
+.button-default:hover {
+    background-color: rgb(116, 113, 113);    
+}
+
+.footer {
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.footer-item {
+    max-width: 15rem;
+    padding-right: var(--main-size, 1rem);
+    margin-bottom: 1.4rem;
+}
+
+.footer-item:hover {
+    cursor: pointer;
+    border-radius: 3%;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 3px 2px lightgrey;
+}
+
+.footer-icon {
+    margin-top: 1rem;
+    padding: var(--main-size, 1rem);
+    color: rgb(114, 201, 233);
+    font-size: 3rem;
+}
+
+.footer-title {
+    font-size: 1.5rem;
+    white-space: nowrap;
+}
+
+.footer-description {
+    padding: var(--main-size, 1rem);
+}
+
+nav {
+    height: 2.5rem;
+    padding: 0 2rem;
+    background-color: black;
+    color: rgb(228, 226, 226);
+}
+.nav-item {
+    align-self: center;
+    padding-right: var(--main-size, 1rem);
+}
+
+.search {
+    align-self: center;
+    justify-content: flex-start;
+}
+
+input {
+    background-color: rgb(228, 226, 226);
+}
+
+@media (orientation: portrait) {
+    .nav-item {
+        display: none;
+    }
+}

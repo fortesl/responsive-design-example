@@ -1,0 +1,10 @@
+The Challenge:
+
+Make a responsive page to match the comps presented. 
+
+The Rules:
+- There is no minimum or maximum time limit for this test. The expectation is that a candidate would spend less than a few hours on it.
+- The menu functionality is optional.
+- The candidate can use any artwork; the icons and the hero image can be replaced by whatever is convenient.
+- Do NOT use Bootstrap or other CSS frameworks.
+- The page will be reviewed at multiple breakpoints.
